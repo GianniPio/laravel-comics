@@ -13,6 +13,10 @@
      @include('components.header')   
     </div>
 
+    <div id="main">
+        @yield('content')
+    </div>
+
     <div id="footer">
         @include('components.footer')
     </div>

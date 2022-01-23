@@ -1,4 +1,25 @@
 * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+* #header {
+  text-align: center;
   background-color: red;
+  height: 25%;
+}
+
+* #main {
+  text-align: center;
+  background-color: yellow;
+  height: 50%;
+}
+
+* #footer {
+  text-align: center;
+  background-color: green;
+  height: 25%;
 }
 
