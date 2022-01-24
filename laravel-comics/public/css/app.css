@@ -101,32 +101,34 @@
   width: auto;
 }
 
-* #footer .link {
+* footer .link {
   background-color: #0282f9;
   width: 100%;
   height: 140px;
   padding: 1% 14%;
 }
 
-* #footer .link ul {
+* footer .link ul {
   list-style-type: none;
   line-height: 600%;
   display: flex;
   justify-content: space-between;
 }
 
-* #footer .link ul img {
-  width: 25%;
+* footer .link ul img {
+  width: 50%;
+  height: auto;
   display: inline-block;
   vertical-align: middle;
+  margin-right: 5px;
 }
 
-* #footer .link ul li {
+* footer .link ul li {
   margin: 0 20px;
   width: 20%;
 }
 
-* #footer .link ul li a {
+* footer .link ul li a {
   text-decoration: none;
   color: white;
   font-size: 10px;

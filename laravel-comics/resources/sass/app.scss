@@ -106,7 +106,7 @@
         }
     }
 
-    #footer {
+    footer {
 
         .link {
             
@@ -122,9 +122,11 @@
                 justify-content: space-between;
     
                 img {
-                    width: 25%;
+                    width: 50%;
+                    height: auto;
                     display: inline-block;
                     vertical-align: middle;
+                    margin-right: 5px;
                 }
     
                 li {

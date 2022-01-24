@@ -10,23 +10,13 @@
 </head>
 <body>
 
-     @include('components.header')   
+    @include('components.header')   
 
-     @include('components.jumbo')
+    @include('components.jumbo')
 
-    <div id="main">
-        @for ($i = 0; $i < 12; $i++)
-          @yield('content')  
-        @endfor
-
-        <div class="bottone">
-            <h5>LOAD MORE</h5>
-        </div>
-    </div>
-
+    @yield('fumetto')
 
     @include('components.footer')
-
     
 
 
