@@ -9,8 +9,10 @@
     <script src="{{asset('js/app.js')}}"></script>
 </head>
 <body>
-    
+
      @include('components.header')   
+
+     @include('components.jumbo')
 
     <div id="main">
         @yield('content')

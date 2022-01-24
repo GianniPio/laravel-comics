@@ -43,6 +43,12 @@
   padding-bottom: 72px;
 }
 
+* #jumbotron {
+  background-image: url("/storage/assets/jumbotron.jpg");
+  background-size: cover;
+  height: 50%;
+}
+
 * #main {
   text-align: center;
   background-color: yellow;
