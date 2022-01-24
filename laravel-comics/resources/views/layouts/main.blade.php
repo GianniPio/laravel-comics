@@ -9,9 +9,8 @@
     <script src="{{asset('js/app.js')}}"></script>
 </head>
 <body>
-    <div id="header">
+    
      @include('components.header')   
-    </div>
 
     <div id="main">
         @yield('content')
@@ -19,6 +18,7 @@
 
     <div id="footer">
         @include('components.footer')
+        <img src="{{asset('storage/assets/circus.png')}}" alt="">
     </div>
     
 
