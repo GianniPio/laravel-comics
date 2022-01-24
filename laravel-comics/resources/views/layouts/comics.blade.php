@@ -16,6 +16,8 @@
 
     @yield('fumetto')
 
+    @yield('indietro')
+
     @include('components.footer')
     
 
