@@ -15,7 +15,10 @@
      @include('components.jumbo')
 
     <div id="main">
-        @yield('content')
+        @for ($i = 0; $i < 12; $i++)
+          @yield('content')  
+        @endfor
+        
     </div>
 
     <div id="footer">
