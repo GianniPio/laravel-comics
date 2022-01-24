@@ -18,12 +18,16 @@
         @for ($i = 0; $i < 12; $i++)
           @yield('content')  
         @endfor
-        
+
+        <div class="bottone">
+            <h5>LOAD MORE</h5>
+        </div>
     </div>
+
+
 
     <div id="footer">
         @include('components.footer')
-        <img src="{{asset('storage/assets/circus.png')}}" alt="">
     </div>
     
 
