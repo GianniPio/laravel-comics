@@ -15,9 +15,7 @@
      @include('components.jumbo')
 
     <div id="main">
-        @for ($i = 0; $i < 12; $i++)
-          @yield('content')  
-        @endfor
+        @yield('content')  
 
         <div class="bottone">
             <h5>LOAD MORE</h5>
